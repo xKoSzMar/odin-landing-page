@@ -7,3 +7,31 @@
   font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+header {
+  display: flex;
+  padding: 1rem 15%;
+  justify-content: space-between;
+}
+
+header div {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f9faf8;
+  margin: 0 0.7rem;
+}
+
+nav a:hover {
+  color: wheat;
+  transition: 0.2s ease;
+}
+
+.dark {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
