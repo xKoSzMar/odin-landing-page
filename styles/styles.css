@@ -35,3 +35,55 @@ nav a:hover {
   background-color: #1f2937;
   color: #f9faf8;
 }
+
+section {
+  display: flex;
+  padding: 7rem 15%;
+}
+
+#main_container {
+  width: 50%;
+  margin-right: 5%;
+}
+
+#main_container h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+#main_container p {
+  margin-bottom: 3%;
+}
+
+.button {
+  text-align: center;
+  font-weight: bold;
+  width: 7rem;
+  padding: 0.5rem;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: dodgerblue;
+  transition: 0.2s ease;
+}
+
+.button:active {
+  background-color: royalblue;
+  transition: 0.2s ease;
+}
+
+#placeholder {
+  width: 50%;
+  background-color: #7b7b89;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#placeholder p {
+  height: 10%;
+}
