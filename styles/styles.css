@@ -152,3 +152,27 @@ section {
   font-weight: bold;
   font-size: 18px;
 }
+
+#sign_section {
+  justify-content: center;
+}
+
+#sign_container {
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 90%;
+  padding: 4% 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#sign_container .button {
+  border: 2px solid #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  height: 80%;
+}
