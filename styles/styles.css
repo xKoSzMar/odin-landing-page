@@ -143,6 +143,7 @@ section {
   font-size: 36px;
   color: #1f2937;
   font-style: italic;
+  font-weight: 300;
   padding: 1%;
   margin: 1%;
 }
@@ -175,4 +176,10 @@ section {
   align-items: center;
   padding: 0;
   height: 80%;
+}
+
+footer {
+  padding: 2%;
+  display: flex;
+  justify-content: center;
 }
