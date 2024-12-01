@@ -128,3 +128,27 @@ section {
 #images_container sub {
   text-align: center;
 }
+
+#quote_section {
+  background-color: #e5e7eb;
+  flex-direction: column;
+  align-items: center;
+}
+
+#quote_section div {
+  width: 75%;
+}
+
+#quote_section blockquote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  padding: 1%;
+  margin: 1%;
+}
+
+#quote_section p {
+  text-align: end;
+  font-weight: bold;
+  font-size: 18px;
+}
