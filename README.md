@@ -1,5 +1,3 @@
-# odin-landing-page
-
 # The Odin Project 2 - odin-landing-page
 
 This is the second project from The Odin Project curriculum.
