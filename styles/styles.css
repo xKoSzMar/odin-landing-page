@@ -56,6 +56,7 @@ section {
 }
 
 .button {
+  all: unset;
   text-align: center;
   font-weight: bold;
   width: 7rem;
